@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#249ff0</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="gold">#FFD700	</color>
+<!--    <color name="colorPrimary">#249ff0</color>-->
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+<!--    <color name="colorAccent">#f6ba5c</color>-->
+<!--    <color name="gold">#FFD700</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="button">#249ff0</color>
+    <color name="colorAccentDark">#b0461d</color>
+    <color name="green">#22b573</color>
+    <color name="semiBlack">#80000000</color>
+    <color name="red">#f15a24</color>
+</resources>

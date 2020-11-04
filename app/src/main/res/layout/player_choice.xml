@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/player_choise"
+    android:layout_marginEnd="10dp"
+    android:layoutDirection="ltr"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select"
+        android:textSize="18dp"
+        style="@style/AppTheme.Button"
+        android:textColor="@color/white"
+        android:id="@+id/select_player_btn"
+        />
+    <TextView
+        android:id="@+id/coins_price"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/coins"
+        android:textSize="18dp"
+        android:textFontWeight="800"
+        />
+    </LinearLayout>
+</LinearLayout>

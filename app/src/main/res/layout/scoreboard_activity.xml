@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/score_layout"
+    android:orientation="vertical"
+    android:background="@drawable/background_score_eng"
+    >
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/list_view"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="150dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/backfromhsBTN"
+        android:background="@drawable/button_home"
+        android:layout_gravity="center"
+        android:onClick="goHome"
+        android:layout_margin="10dp"
+
+        />
+</LinearLayout>

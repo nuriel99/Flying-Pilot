@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="highscore">הניקוד הכי גבוה:</string>
+    <string name="yourscore">הניקוד שלך:</string>
+    <string name="score">ניקוד</string>
+    <string name="sound_on">השתק מוזיקה</string>
+    <string name="sound_off">הפעל מוזיקה</string>
+    <string name="level_up">רמה חדשה</string>
+    <string name="tap_to_start">לחץ בשביל להתחיל</string>
+    <string name="start">התחל</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="exit_msg">האם אתה בטוח שאתה רוצה לצאת?</string>
+    <string name="instruction_msg">" לחץ על המסך כדי לעוף למעלה, שחרר לחיצה כדי לרדת מטה.הישאר במשחק כמה שיותר זמן ואסוף מטבעות רבים ככל שתוכל תוך כדי הימנעות מאויבים. לאחר המשחק תוכל לקנות באמצעות המטבעות שאספת דמויות חדשות. כמו כן ניתן לצפות בתוצאות הכי טובות שלך בעמוד התוצאות. "</string>
+    <string name="player">שחקו</string>
+    <string name="choose_your_player">בחר שחקן</string>
+    <string name="select">בחר</string>
+    <string name="selected">נבחר</string>
+    <string name="exit">צא</string>
+    <string name="do_you_realy_want_to_exit">אתה בטוח שאתה רוצה לצאת?</string>
+    <string name="coins">מטבעות</string>
+    <string name="coins_collected">מטבעות שנאספו:</string>
+    <string name="buy">קנה</string>
+    <string name="locked">חסום</string>
+    <string name="game_over">המשחק נגמר</string>
+    <string name="instructions">הוראות</string>
+    <string name="start_game_help">לחץ על המסך על מנת לעלות למעלה ושחרר על מנת לרדת. תמנע מהציפורים ותנסה להשיג כמה שיותר מטבעות ולשרוד כמה שיותר זמן</string>
+</resources>

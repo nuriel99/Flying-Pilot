@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/close_image_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app1:srcCompat="@drawable/ic_baseline_close_24"
+        android:elevation="5dp"
+        android:layout_margin="7dp"
+        android:layout_alignParentEnd="true"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app1:cardCornerRadius="15dp"
+        app1:cardBackgroundColor="#B2EDBF37"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            >
+
+
+        <TextView
+            android:id="@+id/headtitle_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"
+
+            />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                >
+            <TextView
+                android:id="@+id/inner_text_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/instruction_msg"
+                android:textColor="#000"
+                android:textSize="15sp"
+                />
+            </ScrollView>
+
+            <Button
+                android:id="@+id/btn_home_dialog"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+               android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_home"
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

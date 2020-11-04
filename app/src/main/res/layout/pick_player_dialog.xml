@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:id="@+id/pick_player_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/choose_your_player"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/coins_pick_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coins"
+            android:layout_toEndOf="@id/pick_player_title"
+            android:layout_marginStart="50dp"
+            android:textSize="24dp"
+            android:textColor="@color/gold"
+            android:textStyle="bold"
+            />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_baseline_close_40"
+            android:background="@android:color/transparent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/close_pick_dialog"
+            />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/horizontalRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:scrollbars="horizontal"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:src="@drawable/flying_pilot"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/player_animation_1"
+            android:id="@+id/player_image"
+            android:layout_gravity="center"
+            android:onClick="pickPlayer"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            style="@style/AppTheme.MenuButton"
+            android:id="@+id/start_btn"
+            android:onClick="startGame"
+            android:background="@drawable/button_start"
+            />
+
+        <Button
+            style="@style/AppTheme.MenuButton"
+            android:id="@+id/player_btn"
+            android:background="@drawable/button_pilot"
+            android:onClick="pickPlayer"
+            android:layout_toEndOf="@+id/start_btn"
+
+            />
+
+        <Button
+            android:id="@+id/score_btn"
+            style="@style/AppTheme.MenuButton"
+            android:background="@drawable/button_score"
+            android:onClick="scoreboard"
+            android:layout_toEndOf="@+id/player_btn"
+            />
+
+        <Button
+            android:id="@+id/instructions_btn"
+            style="@style/AppTheme.MenuButton"
+            android:background="@drawable/button_help"
+            android:onClick="goInstructions"
+            android:layout_toEndOf="@id/score_btn"
+
+            />
+
+        <Button
+            style="@style/AppTheme.MenuButton"
+            android:background="@drawable/button_music"
+            android:onClick="changeSoundSettings"
+            android:id="@+id/sound_btn"
+            android:layout_toEndOf="@+id/instructions_btn"
+
+            />
+        <Button
+            style="@style/AppTheme.MenuButton"
+            android:background="@drawable/button_exit"
+            android:onClick="exit"
+            android:layout_toEndOf="@+id/sound_btn"
+            android:layout_marginEnd="0dp"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

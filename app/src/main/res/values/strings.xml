@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">Flying Pilot</string>
+    <string name="start">Start</string>
+    <string name="score">Score</string>
+    <string name="instructions">Instructions</string>
+    <string name="tap_to_start">Tap to start</string>
+    <string name="start_game_help">Tap to go up and release to go down. Avoid the birds and collect as many coins as you can</string>
+    <string name="highscore">High Score:</string>
+    <string name="yourscore">Your Score:</string>
+    <string name="level_up">Level Up</string>
+    <string name="sound_on">Turn off Music</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="exit_msg">Are you sure you want to exit?</string>
+    <string name="instruction_msg">"Press on the screen to move up, release in order to move down. Stay alive as long as you can and collect as many coins as you can while avoiding from enemies.Hitting a bird will end your game. After collecting the coins enough coins you will be able to buy new characters. You can view your top scores on the Scoreboard page anytime you'd like "</string>
+    <string name="sound_off">Turn on Music</string>
+    <string name="player">Player</string>
+    <string name="choose_your_player">Choose your Player</string>
+    <string name="select">Select</string>
+    <string name="selected">Selected</string>
+    <string name="exit">Exit</string>
+    <string name="do_you_realy_want_to_exit">Do you realy want to exit ?</string>
+    <string name="coins">Coins</string>
+    <string name="coins_collected">Coins Collected:</string>
+    <string name="buy">Buy</string>
+    <string name="locked">Locked</string>
+    <string name="game_over">Game Over</string>
+
+</resources>
