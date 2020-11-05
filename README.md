@@ -16,7 +16,7 @@ So have fun :) <br>
 JAVA , Android
 
 ### GIT
-https://github.com/Kobidl/flying-pilot/
+https://github.com/nuriel99/Flying-Pilot
 
 ### Youtube
 https://youtu.be/PNwbo7Jlj-w
