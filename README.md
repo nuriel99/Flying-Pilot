@@ -12,6 +12,9 @@ JAVA , Android
 ### GIT
 https://github.com/Kobidl/flying-pilot/
 
+### Youtube
+https://youtu.be/PNwbo7Jlj-w
+
 <br>
 <img src="image/screen1.png"  width="700">
 <img src="image/screen2.png"  width="700">
