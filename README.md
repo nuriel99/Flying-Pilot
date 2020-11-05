@@ -1,5 +1,5 @@
 # Flying Pilot
-### introduction<br>
+### Introduction<br>
 This game is for android phones. It constructed with 2D platform.<br>
 The player have to collect coins while avoiding the enemies.<br>
 In each game you get a coins, and with this coins you get buy different pilot figures.<br>
