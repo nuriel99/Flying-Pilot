@@ -1,10 +1,16 @@
 # Flying-Pilot
+<br>
+This game is for android phones, in 2D platform.<br>
+The player have to collect coins while avoiding the enemies.<br>
+In each game you get a coins, and with this coins you get buy different pilot figures.<br>
+So have fun :) <br>
 
 ### Features
 
 - Full GAME
 - SCORE BOARD
 - SHOP
+- Instruction
 
 ### Technology 
 JAVA , Android
